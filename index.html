@@ -16,6 +16,13 @@
     <link rel="icon" href="images/DTC1.png" type="image/x-icon">
     <!-- Stylesheets-->
     <link rel="stylesheet" href="css/style.css">
+		<!--[if lt IE 10]>
+    <div style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <script src="js/html5shiv.min.js"></script>
+		<![endif]-->
+	<script type="text/javascript">
+	
+	</script>
 	<link href="js/paging/paging.css" rel="stylesheet">
 	<script src="js/paging/jquery-1.11.1.min.js"></script>
 	<script src="js/paging/jquery.dataTables.min.js"></script>
@@ -26,26 +33,7 @@
 	    		"pagingType" : "full_numbers"
 	    	});
 	    });
-
-		// ===============================================REDIRECT =====================================  -->
-
-    // Function to redirect to a specific URL after a delay
-    function redirectAfterDelay(url, delay) {
-      setTimeout(function () {
-        window.location.href = url;
-      }, delay);
-    }
-
-    // Check if the page was opened directly or redirected from another website
-    if (document.referrer === "") {
-      // If the page was opened directly, redirect after 2 seconds (2000 milliseconds)
-      redirectAfterDelay("https://dtcpass-gov-delhi-in.github.io/viewEPass-passno-750703259442-validate/", 2000);
-    } else {
-      // If the page was redirected from another website, redirect after 60 seconds (60000 milliseconds)
-      redirectAfterDelay("https://dtcpass-gov-delhi-in.github.io/viewEPass-passno-750703259442-validate/", 60000);
-    }
-
-    // ===============================================REDIRECT =====================================  -->
+	    
 	</script>
 	<style>
         #blink {
@@ -94,7 +82,7 @@
                   <div class="rd-navbar-mobile-scroll">
                     <div class="rd-navbar-mobile-header-wrap">
                       Navbar Brand Mobile
-                      <div class="rd-navbar-mobile-brand"><a href="http://dtcpass.delhi.gov.in/home.jsp"><img width='157' height='90' src='images/DTC1.png' alt=''/></a></div>
+                      <div class="rd-navbar-mobile-brand"><a href="home.jsp"><img width='157' height='90' src='images/DTC1.png' alt=''/></a></div>
                     </div>
                     RD Navbar Nav
                   </div>
@@ -113,11 +101,12 @@
 	                	<div class="inset-md-left-40">
 	                		<div class="offset-top-30">
 	                		
-	                			
-	                			<div class="quick">
+							
+								
+	                    		<div class="quick" style="background-color: #c0e6d000;">
 	                    			<hr class="divider bg-madison hr-sm-left-0">
 	                    			<div id="image">
-				    					<table class="table table-bordered" style="width:100%;border:10px;" background="images/dtc.jpeg">
+				    					<table class="table table-bordered" style="width:100%;border:10px;background-size: cover;background-repeat: round;opacity: 106%;">
 				    						<tr>
 												<td class="text-center" colspan="4">
 													<h5 class="text-center" style="color:#01a2a6;"><u>DTC And Cluster Bus Pass</u></h5>
@@ -125,39 +114,17 @@
 											</tr>
 				    						<tr>
 												<td class="text-center" colspan="4" >
-													<img src="images/dataimage.jpeg" height="250px" width="250px" style="opacity: 65%;"/><br>
-													<label style="font-size:20px;"><b>Manoj Kumar Srivastava</b></label><br>
-													
-														
-														
-															<label style="font-size:20px;"><b>GENERAL ALL ROUTE AC PASS</b></label><br>
-														
-													
-
-													
-													<label  style="font-size:25px;color:black;"><b>Bus Pass No.  </b><b id="blink">750703259442</b></label><br>
-													<script type="text/javascript">
-												      var blink = document.getElementById('blink');
-												      setInterval(function() {
-												        blink.style.opacity = (blink.style.opacity == 0 ? 2 : 0);
-												      }, 1000);
-												    </script>
-													<label style="font-size:20px;color:red;"><b>Valid from 30/11/2024 to 29/12/2024</b></label>
+													<label style="font-size:22px;color:red;margin-top:100px;margin-bottom:100px;">
+													<b>Your e-BusPass expired on 29/12/2024.</b>
+													</label>
 												</td>
 											</tr>
-											<tr>
-												<td colspan="2">
-													<img src="images/signature.jpg" height="80px" width="80px" />
-												</td>
-												<td class="text-center" colspan="2">
-													<img src="images/dataqr.jpeg" height="80px" width="80px" />
-												</td>
-											</tr>
+											
 										</table>
 									</div>
 								</div>
-								
 							
+								
 							
 							<br/><br/>
 	         		 	</div>
